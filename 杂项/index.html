@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link rel="stylesheet" type="text/css" href="css/index.css">
+	<script src="js/jquery-1.10.2.min.js"></script>
+	<script type="text/javascript" src="js/index.js"></script>
+	<script type="text/javascript" src="js/study.js"></script>
+	<script type="text/javascript">
+		document.write("浏览器宽度：" +window.innerWidth);
+		document.write("<br />");
+		document.write("浏览器高度"+window.innerHeight);
+		document.write("<br />");
+		document.write(document.body.clientHeight);
+		document.write("<br/>");
+		document.write(document.body.clientWidth);
+		document.write("<br/>");
+		document.write("可用高度："+screen.availHeight);
+		document.write("<br/>");
+		document.write("可用宽度："+ screen.availWidth);
+		document.write("<br/>");
+		document.write("主机域名："+ location.hostname);
+		document.write("<br/>");
+		document.write("当前页面的路径和文件名："+ location.pathname);
+		document.write("<br/>");
+		document.write("web主机的端口："+ location.port);
+		document.write("<br/>");
+		document.write("所使用的 web 协议："+ location.protocol);
+		document.write("<br/>");
+		document.write("返回当前页面的 URL："+ location.href);
+	
+		function mydi(){
+			window.location.assign("http:www.taobao.com");
+
+		}
+		 function hai(){
+		 	window.history.forward()
+
+		 }
+		 function goBack()
+  {
+  window.history.back()
+  }
+
+ var countdown=60; 
+function settime(obj) { 
+    if (countdown == 0) { 
+        obj.removeAttribute("disabled");    
+        obj.value="免费获取验证码"; 
+        countdown = 60; 
+        return;
+    } else { 
+        obj.setAttribute("disabled", true); 
+        obj.value="重新发送(" + countdown + ")"; 
+        countdown--; 
+    } 
+setTimeout(function() { 
+    settime(obj) }
+    ,1000) 
+}
+
+
+var dd= 60;
+function myfly(jack){
+if (dd == 0) {
+	jack.removeAttribute("disabled");
+	jack.value = "免费获取验证码";
+	dd = 60;
+	return;
+} else{
+	jack.setAttribute("disabled",true);
+	jack.value= "重新获取("+ dd + ")";
+	dd--;
+}
+setTimeout(function(){
+settime(jack)}
+,1000)
+}
+
+</script>
+
+</head>
+<body>
+	<div class="myde"  onmouseover="mOver(this)" onmouseout="mOut(this)">
+		
+	你好吗?</div>
+
+	<button type="button" onclick="mydi()">加载新的文档</button>
+
+	<input type="button" value="提交" onclick="hai()" >
+	<input type="button" value="Back" onclick="goBack()">
+	<input type="button" id="btn" value="免费获取验证码" onclick="settime(this)" />
+	
+	<input type="button" value="免费获取验证码" onclick="myfly(this)" />
+</body>
+</html>

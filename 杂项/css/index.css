@@ -1,0 +1,36 @@
+*{
+
+	padding: 0;
+	margin: 0;
+}
+
+.myde{
+	
+	width: 300px;
+	height: 300px;
+	border: 1px solid red;
+	background: blue;
+	margin: 0px auto;
+	border-radius: 100%;
+	font-size: 20px;
+	text-align: center;
+	line-height: 300px;
+	color: #469576;
+	transform-style: preserve-3d;
+	perspective: 1200px;
+	-webkit-box-shadow: -7px 15px 15px gray;
+    transform: rotateX(50deg) rotateY(3deg) rotateZ(-20deg);
+    transition: all 1.2s ease-out;
+
+}
+
+.myde:hover {
+    transform: rotate3D(0, 0, 0, 0deg);
+    box-shadow: -100px 100px 15px white;
+    color: red;
+
+}
+
+body{
+	background-image: image(“imags/bg1.jpg”);
+}

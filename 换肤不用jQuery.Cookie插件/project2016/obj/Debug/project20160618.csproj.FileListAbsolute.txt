@@ -1,0 +1,12 @@
+C:\Users\Administrator\Desktop\project20160618\project20160618\bin\project20160618.dll.config
+C:\Users\Administrator\Desktop\project20160618\project20160618\bin\project20160618.dll
+C:\Users\Administrator\Desktop\project20160618\project20160618\bin\project20160618.pdb
+C:\Users\Administrator\Desktop\project20160618\project20160618\obj\Debug\project20160618.dll
+C:\Users\Administrator\Desktop\project20160618\project20160618\obj\Debug\project20160618.pdb
+C:\Users\Administrator\Desktop\project20160618\project20160618\obj\Debug\project20160618.csprojResolveAssemblyReference.cache
+C:\Users\Administrator\Desktop\project20160620\project20160618\bin\project20160618.dll.config
+C:\Users\Administrator\Desktop\project20160620\project20160618\bin\project20160618.dll
+C:\Users\Administrator\Desktop\project20160620\project20160618\bin\project20160618.pdb
+C:\Users\Administrator\Desktop\project20160620\project20160618\obj\Debug\project20160618.csprojResolveAssemblyReference.cache
+C:\Users\Administrator\Desktop\project20160620\project20160618\obj\Debug\project20160618.dll
+C:\Users\Administrator\Desktop\project20160620\project20160618\obj\Debug\project20160618.pdb

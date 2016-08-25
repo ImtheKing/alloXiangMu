@@ -1,0 +1,168 @@
+﻿* {
+    padding: 0px;
+    margin: 0px;
+    font-family: "微软雅黑";
+}
+
+a {
+    text-decoration: none;
+}
+
+#header {
+    height: 56px;
+    width: 100%;
+    background-color: #000;
+    line-height: 56px;
+    border-bottom: solid 1px #ccc;
+}
+
+.topitem {
+    float: right;
+    margin: 0px 10px;
+
+}
+
+    .topitem a {
+        color: white;
+        text-decoration: underline;
+    }
+
+.boxitem input {
+    width: 350px;
+    height: 43px;
+}
+
+.boxitem a {
+    width: 352px;
+    height: 50px;
+    background-color: #022bed;
+    display: block;
+    color: #fff;
+    text-align: center;
+    line-height: 50px;
+    font-size: 30px;
+    font-weight: 900;
+}
+
+.boxitem {
+    margin: 20px;
+}
+
+#loginbox, #regbox {
+    display: none;
+}
+
+.dlogo {
+    width: 103px;
+    height: 35px;
+    float: left;
+    margin-left: 13px;
+    margin-top: 9px;
+    margin-right: 13px;
+}
+
+.dsearch {
+    width: 320px;
+    height: 35px;
+    float: left;
+    margin-top: 11px;
+    margin-left: 269px;
+
+   
+
+}
+
+#txtSearch {
+    height: 100%;
+    width: 100%;
+    display: block;
+    
+}
+
+.dbtn a {
+    width: 103px;
+    height: 39px;
+    background-color: #022bed;
+    display: block;
+    float: left;
+    margin-top: 11px;
+    color: #fff;
+    text-align: center;
+    line-height: 39px;
+    font-size: 18px;
+}
+
+#dcon {
+    width: 542px;
+    border: solid 1px #ccc;
+    border-top-width: 0px;
+    position: absolute;
+    top: 48px;
+    left: 142px;
+    background-color: #fff;
+    display: none;
+}
+
+ul {
+    list-style-type: none;
+}
+
+#dcon .bg {
+    background-color: #ccc;
+}
+
+
+#dbgtop {
+    height: 48px;
+    width: 100%;
+    border-bottom: solid 1px #ccc;
+}
+
+#dbgtop-item {
+    width: 950px;
+    height: 48px;
+    margin: 0px auto;
+    line-height: 48px;
+}
+
+.bgitem img {
+    width: 100px;
+}
+
+#dhot {
+    float: left;
+}
+
+#dup {
+    float: right;
+}
+
+#dhot a {
+    width: 42px;
+    height: 48px;
+    background-color: #022bed;
+    color: #fff;
+    display: block;
+    text-align: center;
+}
+
+#dbglist {
+    width: 950px;
+    height: 100px;
+    margin: 0px auto;
+    margin-top: 20px;
+}
+
+.bgitem {
+    float: left;
+    margin-right: 10px;
+}
+
+#dbgs {
+    background-color: #fff;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    display: none;
+}

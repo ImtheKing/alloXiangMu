@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>mydemo</title>
+	<link href="css/mydemo.css" rel="stylesheet" />
+	<script type="text/javascript" src="js/jquery-1.10.2.min.js"></script>
+	<script type="text/javascript" src="js/jquery.cookie.js"></script>
+	<script type="text/javascript" src="layer/layer.js"></script>
+	<script type="text/javascript" src="js/mydemo.js"></script>
+</head>
+<body>
+
+<div class="nav">
+
+	<div class="dlogo">
+		<div class="bailogo">
+			<img src="image/baidu.png" />
+		</div>
+		<div class="dearch">
+			<div class="frist-dearch">
+				<input type="text"></div>
+			<div class="reascg">
+				<div class="dbtn">
+					<a href="javascript:;">百度一下</a>
+				</div>
+				<div class="topitem">
+					<a href="javascript:;" onclick="showImage()">换皮肤</a>
+				</div>
+				<div class="topitem">
+					<a href="javascript:;" onclick="ShowRegBox()">注册</a>
+				</div>
+				<div class="topitem">
+					<a href="javascript:;" onclick="ShowLoginBox()">登陆</a>
+				</div>
+			</div>
+
+		</div>
+
+	</div>
+
+</div>
+
+<div id="loginbox">
+        <div class="boxitem"><input type="text" id="txtUserName" placeholder="请输入用户名" /></div>
+        <div class="boxitem"><input type="password" id="txtPwd" placeholder="请输入密码" /></div>
+        <div class="boxitem"><a href="javascript:;" onclick="Login()">登陆</a></div>
+    </div>
+    <div id="regbox">
+        <div class="boxitem"><input type="text" id="txtRUserName" placeholder="请输入用户名" /></div>
+        <div class="boxitem"><input type="password" id="txtRPwd" placeholder="请输入密码" /></div>
+        <div class="boxitem"><input type="text" id="txtRQQ" placeholder="请输入QQ" /></div>
+        <div class="boxitem"><input type="text" id="txtRTel" placeholder="请输入手机号" /></div>
+        <div class="boxitem"><input type="text" id="txtRRealName" placeholder="请输入姓名" /></div>
+        <div class="boxitem"><a href="javascript:;" onclick="Reg()">注册</a></div>
+    </div>
+	<div id="tapbax">
+
+		<div class="thisbox-con">
+
+			<div class="fixed-con">
+				<div class="iamgs1"><a href="javascript:;">热门</a></div>
+				<div class="iamgs2" onclick="hideImage()"><a href="javascript:;">收起</a></div>
+			</div>
+		</div>
+	<div id="bottom-con">
+		<div class="images-con">
+			<div class="bgitame"><img src="image/bg0.jpg"></div>
+			<div class="bgitame"><img src="image/bg1.jpg"></div>
+			<div class="bgitame"><img src="image/bg2.jpg"></div>
+			<div class="bgitame"><img src="image/bg3.jpg"></div>
+			<div class="bgitame"><img src="image/bg4.jpg"></div>
+			<div class="bgitame"><img src="image/bg5.jpg"></div>
+		</div>
+	</div>
+	</div>
+	<div class="shishi"></div>
+</body>
+</html>

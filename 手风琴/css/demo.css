@@ -1,0 +1,59 @@
+*{
+	padding: 0;
+	margin: 0;
+	list-style: none;
+}
+
+a{
+	text-decoration: none;
+
+}
+#nangaTion{
+	width: 100%;
+	height: 220px;
+	margin-top: 120px;
+	border:0px solid red;
+
+}
+
+
+#nangaTion ul li{
+	float: left;
+	color: #fff;
+	width: 100px;
+	height: 220px;
+
+}
+.center-con{
+	width: 1024px;
+	height: 220px;
+	margin: 0 auto;
+	position: relative;
+
+}
+.txt{
+
+	background-color: #000;
+	background: rgba(0,0,0,.5);
+	width: 100px;
+	height:220px;
+	border: 0px solid #49D05C;
+}
+.txt .p1{
+	font-size: 14px;
+	width: 14px;
+	padding: 25px 15px 0px 20px;
+	border: 0px solid #FDFF30;
+	color: #F9F4F4;
+
+}
+.txt .p2{
+	
+	font-size: 12px;
+	width: 12px;
+	border: 0px solid #FDFF30;
+	float: right;
+	margin-top: -144px;
+	margin-right: 26px;
+	color: #E7D5D5;
+}

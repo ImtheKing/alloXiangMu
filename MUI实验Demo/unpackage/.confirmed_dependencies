@@ -1,0 +1,125 @@
+{
+	"index.html": {
+		"resources": [
+			"js/mui.min.js",
+			"fonts/mui.ttf",
+			"css/mui.min.css",
+			"js/update.js",
+			"list.html"
+		],
+		"refer": [
+			"index-menu.html",
+			"list.html"
+		]
+	},
+	"examples/tab-webview-subpage-contact.html": {
+		"resources": [
+			"images/60x60.gif"
+		]
+	},
+	"examples/tab-webview-main.html": {
+		"resources": [
+			"examples/tab-webview-subpage-about.html"
+		],
+		"refer": [
+			"examples/tab-webview-subpage-setting.html",
+			"examples/tab-webview-subpage-chat.html",
+			"examples/tab-webview-subpage-contact.html",
+			"examples/tab-webview-subpage-about.html"
+		]
+	},
+	"list.html": {
+		"refer": [
+			"examples/template.html",
+			"examples/tab-webview-main.html",
+			"examples/pullrefresh_main.html",
+			"examples/info.html",
+			"examples/accordion.html",
+			"examples/ajax.html",
+			"examples/pullrefresh_with_tab.html",
+			"examples/im-chat.html",
+			"examples/echarts.html",
+			"examples/beecloud.html",
+			"examples/clouddb_wilddog.html",
+			"examples/locker-dom.html",
+			"examples/imageviewer.html"
+		]
+	},
+	"examples/pullrefresh_main.html": {
+		"resources": [
+			"examples/pullrefresh_sub.html"
+		],
+		"refer": [
+			"examples/pullrefresh_sub.html"
+		]
+	},
+	"examples/info.html": {
+		"resources": [
+			"images/qrcode.png",
+			"css/app.css"
+		]
+	},
+	"examples/accordion.html": {
+		"resources": [
+			"images/cbd.jpg",
+			"images/muwu.jpg",
+			"images/yuantiao.jpg",
+			"images/shuijiao.jpg"
+		]
+	},
+	"examples/pullrefresh_with_tab.html": {
+		"resources": [
+			"js/mui.pullToRefresh.js",
+			"js/mui.pullToRefresh.material.js"
+		]
+	},
+	"examples/im-chat.html": {
+		"resources": [
+			"js/mui.imageViewer.js",
+			"images/logo.png",
+			"css/app.css",
+			"css/mui.imageviewer.css",
+			"js/arttmpl.js"
+		]
+	},
+	"examples/echarts.html": {
+		"resources": [
+			"libs/echarts-all.js"
+		]
+	},
+	"examples/beecloud.html": {
+		"resources": [
+			"js/beecloud.js",
+			"js/mui.min.js",
+			"fonts/mui.ttf",
+			"css/mui.min.css"
+		]
+	},
+	"examples/clouddb_wilddog.html": {
+		"resources": [
+			"js/mui.min.js",
+			"fonts/mui.ttf",
+			"css/mui.min.css"
+		]
+	},
+	"examples/locker-dom.html": {
+		"resources": [
+			"js/mui.min.js",
+			"css/app.css",
+			"css/mui.min.css",
+			"js/mui.locker.js"
+		]
+	},
+	"examples/imageviewer.html": {
+		"resources": [
+			"js/mui.zoom.js",
+			"images/muwu.jpg",
+			"images/yuantiao.jpg",
+			"js/mui.min.js",
+			"fonts/mui.ttf",
+			"css/mui.min.css",
+			"js/mui.previewimage.js",
+			"images/shuijiao.jpg"
+		]
+	}
+}

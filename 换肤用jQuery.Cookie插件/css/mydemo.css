@@ -1,0 +1,211 @@
+* {
+	 padding: 0px;
+	 margin: 0px;
+	 font-family: "微软雅黑";
+
+
+}
+.nav{
+
+	width: 100%;
+	height:55px;
+	border: 0px solid blue;
+	background: #000;
+	line-height: 55px;
+	
+
+}
+
+.dlogo{
+	width: 98%;
+	height: 100%;
+	margin: 0 auto;
+	border: solid 0px red;
+}
+
+ .bailogo img{
+	height: 38px;
+	line-height: 38px;
+	text-align: center;
+	margin-top: 0.5%;
+	float: left;
+ }
+ .topitem{
+	
+	height: 100%;
+	border: 0px solid #465518;
+	float: right;
+	margin: 0px 10px 0px 0px;
+
+ }
+ 
+ .topitem a{
+	display: block;
+	height: 21px;
+	color: #EAE7E7;
+	text-align: center;
+
+
+ }
+
+ .dearch{
+	width:80%;
+	height: 100%;
+	border:0px solid #29788D;
+	float: right;
+
+ }
+
+ .frist-dearch{
+	width: 320px;
+	height: 35px;
+	float: left;
+	border: 0px solid #F6F408;
+	margin-top: 8px;
+
+ }
+ .dearch input{
+	display: block;
+	width: 100%;
+	height: 100%;
+
+ }
+
+ .dbtn a {
+    width: 103px;
+    height: 39px;
+    background-color: #022bed;
+    display: block;
+    float: left;
+    margin-top: 11px;
+    color: #fff;
+    text-align: center;
+    line-height: 39px;
+    font-size: 18px;
+    margin-top: 7.5px;
+    margin-left: 3px;
+    text-decoration: none;
+}
+
+#tapbax{
+	width: 100%;
+	height: 140px;
+	position: absolute;
+	top: 0;
+	left: 0;
+	background-color: #fff;
+	display: none;
+
+ }
+ #tapbax img{
+	width: 100%;
+	height: 100%;
+
+ }
+ #tapbax .thisbox-con
+ {
+	width: 100%;
+	height: 40px;
+	border-bottom: 1px solid #F0E9E9;
+	background-image: 
+ }
+ .fixed-con{
+	width: 900px;
+	height: 40px;
+	margin: 0 auto;
+	border: 0px solid red;
+	line-height: 40px;
+
+}
+.iamgs1{
+	float: left;
+
+}
+.iamgs1 a{
+	text-decoration: none;
+	display: block;
+	width: 50px;
+	color: #fff;
+	background: #4254F4;
+	text-align: center;
+
+}
+.iamgs2{
+
+	float: right;
+}
+.iamgs2 a{
+	text-decoration: none;
+	display: block;
+	width: 50px;
+	color: #fff;
+	background: #3FA253;
+	text-align: center;
+
+}
+#bottom-con{
+	width: 100%;
+	height: 100px;
+	position: absolute;
+	border: 0px solid blue;
+
+}
+.images-con{
+	width: 900px;
+	height: 100%;
+	border: 0px solid #684949;
+	margin: 0 auto;
+	line-height: 100%;
+
+}
+#bottom-con .bgitame{
+	width: 100px;
+	height: 70px;
+	margin-right: 10px;
+	float: left;
+	line-height: 70px;
+	text-align: center;
+	margin-top: 15px;
+
+}
+#bottom-con .bgitame img {
+	display: block;
+	width: 100%;
+	height: 100%;
+	
+
+}
+.shishi{
+	width: 100%;
+	height: 940px;
+	border: 0px solid red;
+
+}
+
+.boxitem input {
+    width: 350px;
+    height: 43px;
+}
+
+.boxitem a {
+    width: 352px;
+    height: 50px;
+    background-color: #022bed;
+    display: block;
+    color: #fff;
+    text-align: center;
+    line-height: 50px;
+    font-size: 30px;
+    font-weight: 900;
+    text-decoration: none;
+}
+
+.boxitem {
+    margin: 20px;
+}
+
+#loginbox, #regbox {
+    display: none;
+}
+
+
